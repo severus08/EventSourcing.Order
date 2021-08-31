@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+
+  orderdb:
+    image: mongo
+
+  eventstoredb:
+    image: eventstore/eventstore:latest
+
+  order.api:
+    image: ${DOCKER_REGISTRY-}orderapi
+    build:
+      context: .
+      dockerfile: Order.Api/Dockerfile
+
+  order.eventsubscribers:
+    image: ${DOCKER_REGISTRY-}ordereventsubscribers
+    build:
+      context: .
+      dockerfile: Order.EventSubscribers/Dockerfile
+

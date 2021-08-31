@@ -1,0 +1,59 @@
+version: '3.4'
+
+services:
+  orderdb:
+    container_name: orderdb
+    restart: always
+    volumes: 
+        - ${WEBAPP_STORAGE_HOME}/site:/data/db
+    ports:
+      - "27017:27017"
+
+  eventstoredb:
+    container_name: eventstoredb
+    environment:
+      - EVENTSTORE_CLUSTER_SIZE=1
+      - EVENTSTORE_RUN_PROJECTIONS=All
+      - EVENTSTORE_START_STANDARD_PROJECTIONS=true
+      - EVENTSTORE_EXT_TCP_PORT=1113
+      - EVENTSTORE_HTTP_PORT=2113
+      - EVENTSTORE_INSECURE=true
+      - EVENTSTORE_ENABLE_EXTERNAL_TCP=true
+      - EVENTSTORE_ENABLE_ATOM_PUB_OVER_HTTP=true
+    ports:
+      - "1113:1113"
+      - "2113:2113"
+    volumes:
+      - type: volume
+        source: eventstore-volume-data
+        target: /var/lib/eventstore
+      - type: volume
+        source: eventstore-volume-logs
+        target: /var/log/eventstore
+
+  order.api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "Mongo:ConnectionString=mongodb://orderdb:27017/Order"
+      - "EventStore:Uri=eventstoredb"
+    depends_on:
+      - orderdb
+      - eventstoredb
+    ports:
+      - "8001:80"
+    volumes:
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+
+  order.eventsubscribers:
+   environment:
+     - "Mongo:ConnectionString=mongodb://orderdb:27017/Order"
+     - "EventStore:Uri=eventstoredb"
+   depends_on:
+     - orderdb
+     - eventstoredb
+   volumes:
+     - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+volumes:
+  eventstore-volume-data:
+  eventstore-volume-logs:

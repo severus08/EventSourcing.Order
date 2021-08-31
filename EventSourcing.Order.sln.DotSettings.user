@@ -1,0 +1,54 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">C:\Users\MrBug\AppData\Local\JetBrains\Rider2021.1\resharper-host\temp\Rider\vAny\CoverageData\_EventSourcing.Order.-764129516\Snapshot\snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0229afe3_002Df33c_002D4631_002D955b_002D7f7fcb463b47/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WHEN_CREATE_ORDER_THEN_GET_EXIST_ORDER_SHOULD_RETURN_SUCCESS" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.WHEN_CREATE_ORDER_THEN_GET_EXIST_ORDER_SHOULD_RETURN_SUCCESS&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=11402aa6_002D9c05_002D4751_002D9b82_002D0c078c731bba/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS #4" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=299757f8_002Da4f5_002D490d_002D8ed7_002D69e29c070727/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4105679b_002De452_002D46c8_002D92cb_002D944e54c5a087/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WHEN_ORDER_SUCCESSFULLY_DONE_THEN_TRUE_FILTERS_SHOULD_RETURN_ORDER" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.WHEN_ORDER_SUCCESSFULLY_DONE_THEN_TRUE_FILTERS_SHOULD_RETURN_ORDER&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.WHEN_CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=42646be8_002D2c7e_002D4ffa_002D9717_002Db71180d3534a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CREATE_ORDER_THEN_GET_EXIST_ORDER_SHOULD_RETURN_SUCCESS" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.CREATE_ORDER_THEN_GET_EXIST_ORDER_SHOULD_RETURN_SUCCESS&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4d7617e2_002D63db_002D4499_002Da591_002D1223d02d4bce/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6013c8cc_002D2da4_002D4106_002Da965_002D77f5cc2c3076/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="WHEN_GET_NOT_EXIST_ORDER_SHOULD_RETURN_SUCCESS" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8ba24fa6_002D2b11_002D47fa_002Dbde6_002D91df659888a4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS #5" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=92fc723a_002D446d_002D4d5c_002D8b05_002Dc635140e84bf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CREATE_ORDER_THEN_GET_EXIST_ORDER_SHOULD_RETURN_SUCCESS #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.CREATE_ORDER_THEN_GET_EXIST_ORDER_SHOULD_RETURN_SUCCESS&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests.CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a4782cce_002D8ae7_002D4c49_002D9bca_002Df594becd3333/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CREATE_ORDER_AND_CANCEL_ORDER_THEN_GET_ORDER_SHOULD_RETURN_EXPECTED_STATUS" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::1EE623DE-E230-466A-8CA7-25974AAC3751::net5.0::Order.Api.IntegrationTests.OrdersControllerTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
